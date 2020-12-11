@@ -120,10 +120,6 @@ def search():
     print("get request")
     return url_for("index")
 
-# unauthenticated users can view the about page
-@app.route('/about')
-def about():
-    return 'about page'
 
 # unauthenticated users can see a message on the registration page
 @app.route('/register')
