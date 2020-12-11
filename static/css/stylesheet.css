@@ -2,3 +2,33 @@ label.print{
   font-style: italic;
   font-weight: bold;
 }
+
+body {
+  background-color: #D7D9D7; 
+}
+
+.navbar {
+  background-color: #B48EAE;
+}
+
+nav .navbar-nav .nav-link {
+  color: black !important;
+}
+
+h1 {
+  text-align: center;
+}
+
+.btn {
+  background-color: #BAACBD;
+  border: solid 1px;
+}
+.btn:hover {
+  background-color: #B48EAE;
+}
+
+.loginForm {
+  background-color: #B48EAE;
+  border: solid 1px;
+}
+

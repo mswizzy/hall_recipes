@@ -371,7 +371,7 @@ def edit_recipe(recipe_id):
     if edit_recipe:
         return render_template('edit-recipe.html', recipe=edit_recipe, all_categories=categories.find())
     flash('Recipe not found.', 'danger')
-    return redirect(url_for('admin_recipes'))
+    return redirect(url_for('admin_recipes')) 
 
 @app.route('/recipes/update-recipe/<recipe_id>', methods=['POST'])
 @login_required
